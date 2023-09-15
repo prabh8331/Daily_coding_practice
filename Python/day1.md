@@ -43,8 +43,8 @@ if __name__ == '__main__':
             print("Not Weird")
 ```            
 
-### 3.Arithmatic Operators 
-#### The provided code stub reads two integers from STDIN, `a` and `b`. Add code to print three lines where:
+### 3. Arithmatic Operators 
+#### The provided code stub reads two integers from STDIN `a` and `b`. Add code to print three lines where:
     The first line contains the sum of the two numbers.
     The second line contains the difference of the two numbers (first - second).
     The third line contains the product of the two numbers.
@@ -58,9 +58,11 @@ if __name__ == '__main__':
     print(a*b)
 ```
 
-### Python: Division 
-#### qn- The provided code stub reads two integers,  and , from STDIN.
-#### Add logic to print two lines. The first line should contain the result of integer division,  // . The second line should contain the result of float division,  / .
+### 4. Python: Division 
+#### The provided code stub reads two integers `a` and `b` from STDIN.
+    Add logic to print two lines. 
+    The first line should contain the result of integer division `a//b`. 
+    The second line should contain the result of float division `a/b`.
 
 ``` py
 if __name__ == '__main__':
@@ -71,7 +73,7 @@ if __name__ == '__main__':
 ```
 
 
-### Loops
+### 5. Loops
 #### qn- The provided code stub reads and integer, , from STDIN. For all non-negative integers , print .
 
 ``` py
@@ -82,8 +84,8 @@ if __name__ == '__main__':
 ```
 
 
-### Write a function 
-#### qn- three conditions are used to identify leap years:
+### 6. Write a function 
+#### three conditions are used to identify leap years:
 #### The year can be evenly divided by 4, is a leap year, unless:
 #### The year can be evenly divided by 100, it is NOT a leap year, unless:
 #### The year is also evenly divisible by 400. Then it is a leap year.
@@ -102,32 +104,30 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
+
+# another solution 
+# def is_leap(year):
+#     leap = False
+    
+#     if year%4 == 0:
+#         if year%100 ==0:
+#             if year % 400 ==0:
+#                 leap = True
+#             else:
+#                 leap = False
+#         else:
+#             leap = True
+#     else:
+#         leap = False
+    
+#     return leap
+
+# year = int(input())
+# print(is_leap(year))
 ```
 
-#### other solution 
-```py
-def is_leap(year):
-    leap = False
-    
-    if year%4 == 0:
-        if year%100 ==0:
-            if year % 400 ==0:
-                leap = True
-            else:
-                leap = False
-        else:
-            leap = True
-    else:
-        leap = False
-    
-    return leap
-
-year = int(input())
-print(is_leap(year))
-```
-
-### Print Funtion 
-#### The included code stub will read an integer, , from STDIN. Without using any string methods, try to print the following: 123..n
+### 7. Print Funtion 
+    The included code stub will read an integer, , from STDIN. Without using any string methods, try to print the following: 123..n
 
 ```py
 if __name__ == '__main__':

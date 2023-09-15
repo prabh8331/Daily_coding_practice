@@ -7,9 +7,11 @@ if __name__ == '__main__':
     print("Hello, World!")
 ```
 
-```if __name__ == '__main__': construct allows you to write code that will only run when the script is executed directly 
+````
+if __name__ == '__main__': construct allows you to write code that will only run when the script is executed directly 
 and will not run when the script is imported as a module into another script. It's commonly used 
-to include test code or script-specific logic that should only be executed when the script is the main entry point.```
+to include test code or script-specific logic that should only be executed when the script is the main entry point.
+````
 
 
 ### Python if-else 

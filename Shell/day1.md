@@ -1,20 +1,20 @@
 ## Linus shell practice 
 
-#### qn- write a bash script that prints "Hello"
+#### 1. Write a bash script that prints "Hello"
 
 ``` bash
 echo "Hello"
 ```
 
 
-#### qn- Write a Bash script which accepts name as input and displays the greeting "Welcome (name)"
+#### 2. Write a Bash script which accepts name as input and displays the greeting "Welcome (name)"
 
 ``` bash
 read name
 echo "Welcome $name"
 ```
 
-#### qn- use a loop to display the natural numbers from 1 to 50
+#### 3. use a loop to display the natural numbers from 1 to 50
 
 ``` bash
 for i in {1..50}; do
@@ -30,7 +30,7 @@ while [ $count -le 5 ]; do
 done
 ```
 
-#### qn- given two integers , X & Y, find their usm, difference, product and quotient. 
+#### 4. given two integers , X & Y, find their sum, difference, product and quotient. 
 
 ``` bash
 read X
@@ -41,18 +41,17 @@ echo $((X*Y))
 echo $((X/Y))
 ```
 
-#### given two integers , X and Y, identify wheter X< Y or X>Y or X = Y
-#### Exactly one of the following lines:
-#### - X is less than Y
-#### - X is greater than Y
-#### - X is equal to Y
+#### 5. given two integers , X and Y, identify wheter X< Y or X>Y or X = Y, Exactly one of the following lines:
+`X is less than Y`
+`X is greater than Y`
+`X is equal to Y`
 
-####   -eq: Equal to
-####   -ne: Not equal to
-####   -lt: Less than
-####   -le: Less than or equal to
-####   -gt: Greater than
-####   -ge: Greater than or equal to
+`-eq:` Equal to
+`-ne:` Not equal to
+`-lt:` Less than
+`-le:` Less than or equal to
+`-gt:` Greater than
+`-ge:` Greater than or equal to
 
 ```  bash
 read X

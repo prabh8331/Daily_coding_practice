@@ -1,19 +1,18 @@
 ## Python practice
 
-#### Say Hello World with python 
-#### if __name__ == '__main__':
-#### construct allows you to write code that will only run when the script is executed directly 
-#### and will not run when the script is imported as a module into another script. It's commonly used 
-#### to include test code or script-specific logic that should only be executed when the script is the main entry point.
-
-#### qn- print Hello world
+### Say "Hello, World!" with python 
+#### 1. print Hello world
 ``` py
 if __name__ == '__main__':
     print("Hello, World!")
 ```
 
+```if __name__ == '__main__': construct allows you to write code that will only run when the script is executed directly 
+and will not run when the script is imported as a module into another script. It's commonly used 
+to include test code or script-specific logic that should only be executed when the script is the main entry point.```
 
-#### Python if-else 
+
+### Python if-else 
 #### qn- Given an integer, , perform the following conditional actions:
 #### If  is odd, print Weird
 #### If  is even and in the inclusive range of  to , print Not Weird
@@ -42,7 +41,7 @@ if __name__ == '__main__':
             print("Not Weird")
 ```            
 
-#### Arithmatic Operators 
+### Arithmatic Operators 
 #### qn- The provided code stub reads two integers from STDIN,  and . Add code to print three lines where:
 #### The first line contains the sum of the two numbers.
 #### The second line contains the difference of the two numbers (first - second).
@@ -57,7 +56,7 @@ if __name__ == '__main__':
     print(a*b)
 ```
 
-#### Python: Division 
+### Python: Division 
 #### qn- The provided code stub reads two integers,  and , from STDIN.
 #### Add logic to print two lines. The first line should contain the result of integer division,  // . The second line should contain the result of float division,  / .
 
@@ -70,7 +69,7 @@ if __name__ == '__main__':
 ```
 
 
-#### Loops
+### Loops
 #### qn- The provided code stub reads and integer, , from STDIN. For all non-negative integers , print .
 
 ``` py
@@ -81,7 +80,7 @@ if __name__ == '__main__':
 ```
 
 
-#### Write a function 
+### Write a function 
 #### qn- three conditions are used to identify leap years:
 #### The year can be evenly divided by 4, is a leap year, unless:
 #### The year can be evenly divided by 100, it is NOT a leap year, unless:
@@ -125,7 +124,7 @@ year = int(input())
 print(is_leap(year))
 ```
 
-#### Print FUntion 
+### Print Funtion 
 #### The included code stub will read an integer, , from STDIN. Without using any string methods, try to print the following: 123..n
 
 ```py

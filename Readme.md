@@ -11,3 +11,5 @@ type
 create readme.md
 
 and do the first commit 
+
+click on Publish Branch 

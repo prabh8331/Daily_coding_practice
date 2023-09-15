@@ -1,8 +1,8 @@
 
 
-# query all columns for all american cites in the city table with populations larger than 100000. the countrycode for america is usa 
+### query all columns for all american cites in the city table with populations larger than 100000. the countrycode for america is usa 
 
-table name -- city 
+### City
 
 | Field | Type |
 | --- | --- |
@@ -13,7 +13,7 @@ table name -- city
 | population | Number |
 
 
-```
+``` sql
 select * from city a where countrycode = "USA" and population > 100000
-
 ```
+

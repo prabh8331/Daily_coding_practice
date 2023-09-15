@@ -1,6 +1,6 @@
 
 
-#### Query all columns for all american cites in the city table with populations larger than 100000. the countrycode for america is usa 
+#### 1. Query all columns for all american cites in the city table with populations larger than 100000. the countrycode for america is usa 
 
 ### City
 

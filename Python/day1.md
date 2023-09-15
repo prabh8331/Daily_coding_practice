@@ -15,7 +15,7 @@ to include test code or script-specific logic that should only be executed when 
 
 
 ### 2. Python if-else 
-#### Given an integer,n, perform the following conditional actions:
+#### Given an integer `n` perform the following conditional actions:
     If n is odd, print Weird
     If n is even and in the inclusive range of 2 to 5, print Not Weird
     If n is even and in the inclusive range of 6 to 20, print Weird
@@ -43,11 +43,11 @@ if __name__ == '__main__':
             print("Not Weird")
 ```            
 
-### Arithmatic Operators 
-#### qn- The provided code stub reads two integers from STDIN,  and . Add code to print three lines where:
-#### The first line contains the sum of the two numbers.
-#### The second line contains the difference of the two numbers (first - second).
-#### The third line contains the product of the two numbers.
+### 3.Arithmatic Operators 
+#### The provided code stub reads two integers from STDIN, `a` and `b`. Add code to print three lines where:
+    The first line contains the sum of the two numbers.
+    The second line contains the difference of the two numbers (first - second).
+    The third line contains the product of the two numbers.
 
 ``` py
 if __name__ == '__main__':

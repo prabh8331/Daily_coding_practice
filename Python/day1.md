@@ -74,7 +74,8 @@ if __name__ == '__main__':
 
 
 ### 5. Loops
-#### qn- The provided code stub reads and integer, , from STDIN. For all non-negative integers , print .
+#### The provided code stub reads and integer `n` from STDIN. 
+    For all non-negative integers `i < n`, print `i**2`.
 
 ``` py
 if __name__ == '__main__':
@@ -85,10 +86,12 @@ if __name__ == '__main__':
 
 
 ### 6. Write a function 
-#### three conditions are used to identify leap years:
-#### The year can be evenly divided by 4, is a leap year, unless:
-#### The year can be evenly divided by 100, it is NOT a leap year, unless:
-#### The year is also evenly divisible by 400. Then it is a leap year.
+#### Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean `True`, otherwise return `False`.
+    Three conditions are used to identify leap years:
+    The year can be evenly divided by 4, is a leap year, unless:
+       The year can be evenly divided by 100, it is NOT a leap year, unless:
+          The year is also evenly divisible by 400. Then it is a leap year.
+
 ```py
 def is_leap(year):
     leap = False
@@ -127,7 +130,7 @@ print(is_leap(year))
 ```
 
 ### 7. Print Funtion 
-    The included code stub will read an integer, , from STDIN. Without using any string methods, try to print the following: 123..n
+    The included code stub will read an integer `n` from STDIN. Without using any string methods, try to print the following: `123....n`
 
 ```py
 if __name__ == '__main__':

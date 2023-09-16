@@ -1,8 +1,8 @@
 ## Python practice day2 
 
-### 1.  Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given n scores. Store them in a list and find the score of the runner-up.
+### Find the Runner-Up Score!
+#### 1. Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given n scores. Store them in a list and find the score of the runner-up.
 
-#### Print Hello world
 ``` py
 if __name__ == '__main__':
     n = int(input())  #this input is given by code checker to input the answer value   5
@@ -17,7 +17,8 @@ if __name__ == '__main__':
     print(max(filtered_list))
 ```
 
-### Given the names and grades for each student in a class of N students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
+### Nexted Lists
+#### 2. Given the names and grades for each student in a class of N students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
     Note: If there are multiple students with the second lowest grade, order their names alphabetically and print each name on a new line.
 
 <details>
@@ -52,6 +53,7 @@ if __name__ == '__main__':
 </details>
 
 
+`solution:`
 ```py
 if __name__ == '__main__':
     names = []

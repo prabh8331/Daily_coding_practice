@@ -20,8 +20,8 @@ if __name__ == '__main__':
 ### Given the names and grades for each student in a class of N students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
     Note: If there are multiple students with the second lowest grade, order their names alphabetically and print each name on a new line.
 
-<d>
-  <s>starting code:</s>
+<details>
+  <summary>starting code:</summary>
 
   ```py
   if __name__ == '__main__':
@@ -30,7 +30,7 @@ if __name__ == '__main__':
           score = float(input())
   ```
 
-</d>
+</details>
 
 <details>
   <summary>input:</summary>

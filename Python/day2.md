@@ -22,12 +22,14 @@ if __name__ == '__main__':
 
 <d>
   <s>starting code:</s>
-```py
-if __name__ == '__main__':
-    for _ in range(int(input())):
-        name = input()
-        score = float(input())
-```
+
+  ```py
+  if __name__ == '__main__':
+      for _ in range(int(input())):
+          name = input()
+          score = float(input())
+  ```
+
 </d>
 
 <details>

@@ -41,9 +41,21 @@ Harsh
 ```
 
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>input:</summary>
   
-  Content goes here.
+  ```
+  5
+  Harry
+  37.21
+  Berry
+  37.21
+  Tina
+  37.2
+  Akriti
+  41
+  Harsh
+  39
+  ```
   
 </details>
 

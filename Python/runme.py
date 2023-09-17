@@ -1,22 +1,43 @@
 if __name__ == '__main__':
-    n = int(input())  #this input is given by code checker to input the answer value   5
-    arr = map(int, input().split())  # this input is to enter test   2 3 6 6 5
+    names = []
+    scores = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        names.append(name)
+        scores.append(score)
     
-    arr = list(arr)
-
-    #Method 1
-    #max_value = max(arr)
-    #filtered_list = [x for x in arr if x != max_value]
-    #print(max(filtered_list))
-
-    max_value = 0
-    for value in arr:
+        
+    student_score = [names,scores]
+    
+    #second_lowest using functions 
+    #min_score = min(student_score[1])
+    #second_lowest = min([x for x in student_score[1] if x!=min_score])
+    
+    ###second_lowest using loop
+    max_value = student_score[1][0]
+    for value in student_score[1]:
         if value > max_value:
             max_value=value
+
+    min_value = student_score[1][0]
+    for value in student_score[1]:
+        if value < min_value:
+            min_value=value
+
+    second_lowest= max_value
     
-    second_max=0            
-    for value in arr:
-        if value > second_max and value!=max_value:
-            second_max=value         
-            
-    print(second_max)
+    for value in student_score[1]:
+        if value < second_lowest and value > min_value:
+            second_lowest = value
+
+    second_lowest_names = []
+    
+    for i in range(0,len(student_score[0])):
+        if student_score[1][i] == second_lowest:
+            second_lowest_names.append(student_score[0][i])
+        
+    second_lowest_names = sorted(second_lowest_names) 
+    
+    for i in range(0,len(second_lowest_names)):
+        print(second_lowest_names[i])

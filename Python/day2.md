@@ -10,11 +10,31 @@ if __name__ == '__main__':
     
     arr = list(arr)
 
-    max_value = max(arr)
+    #Method 1 using functions 
+    #max_value = max(arr)
+    #filtered_list = [x for x in arr if x != max_value]
+    #print(max(filtered_list))
+
+    #Method 2 without funcitons 
+    max_value = arr[0]
+    for value in arr:
+        if value > max_value:
+            max_value=value
+
+
+    min_value = arr[0]
+    for value in arr:
+        if value < min_value:
+            min_value=value
     
-    filtered_list = [x for x in arr if x != max_value]
-    
-    print(max(filtered_list))
+
+    second_max=min_value    #initially I was setting second_max value as 0 but this will fail if all values are in negative       
+    for value in arr:
+        if value > second_max and value!=max_value:
+            second_max=value         
+            
+    print(second_max)
+
 ```
 
 ### 2. Nexted Lists
@@ -67,10 +87,27 @@ if __name__ == '__main__':
         
     student_score = [names,scores]
     
-    min_score = min(student_score[1])
+    #second_lowest using functions 
+    #min_score = min(student_score[1])
+    #second_lowest = min([x for x in student_score[1] if x!=min_score])
     
-    second_lowest = min([x for x in student_score[1] if x!=min_score])
+    ###second_lowest using loop
+    max_value = student_score[1][0]
+    for value in student_score[1]:
+        if value > max_value:
+            max_value=value
+
+    min_value = student_score[1][0]
+    for value in student_score[1]:
+        if value < min_value:
+            min_value=value
+
+    second_lowest= max_value
     
+    for value in student_score[1]:
+        if value < second_lowest and value > min_value:
+            second_lowest = value
+
     second_lowest_names = []
     
     for i in range(0,len(student_score[0])):
@@ -81,5 +118,6 @@ if __name__ == '__main__':
     
     for i in range(0,len(second_lowest_names)):
         print(second_lowest_names[i])
+
 
 ```

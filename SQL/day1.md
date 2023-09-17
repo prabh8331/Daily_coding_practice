@@ -1,4 +1,4 @@
-## SQL practice 
+## SQL practice day1
 
 ### City
 
@@ -41,3 +41,8 @@ select * from city a where countrycode = "JPN"
 select distinct name from city where countrycode = "JPN"
 ```
 
+#### 6. Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+```sql
+select distinct name from city where countrycode = 'JPN'
+```
